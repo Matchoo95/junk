@@ -1,0 +1,8 @@
+{{FrontSide}}
+
+<hr/>
+
+<div id=answer>
+<div>{{Audio}}{{furigana:Reading}}</div>
+<br/>
+<div>{{furigana:Meaning}}</div>
