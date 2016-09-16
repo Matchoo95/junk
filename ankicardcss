@@ -1,0 +1,11 @@
+.card {
+font-family: Machino;
+ font-size: 32px;
+ text-align: center;
+ color: black;
+ background-color: white;
+}
+
+.expression {
+font-size: 40px;
+}
