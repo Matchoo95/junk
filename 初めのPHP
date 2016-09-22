@@ -1,0 +1,9 @@
+<?php
+$apple = 350;　// 林檎の値段
+$apple_num = rand(1, 100); //　林檎の買う数（ランダム） 
+echo "林檎の値段：".$apple."円\n";
+echo "林檎を買う数：".$apple_num."個\n";
+
+$total = $apple * $apple_num;
+echo "合計：".$total."円です";
+?>
