@@ -6,4 +6,10 @@ echo "林檎を買う数：".$apple_num."個\n";
 
 $total = $apple * $apple_num;
 echo "合計：".$total."円です";
+
+$a = "hel";
+$b = "lo";
+
+echo $a.$b;
+
 ?>
