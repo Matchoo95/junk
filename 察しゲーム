@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+// basic guessing game
+// 簡単な察しゲーム
+
 <html>
 <head>
   <title>察しゲーム</title>
