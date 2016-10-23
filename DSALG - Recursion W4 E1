@@ -1,0 +1,7 @@
+def fun(n):
+    if n < 5:
+        return(3 * n)
+    else:
+        res = 2 * fun(n - 5) + 7
+        return res
+print(fun(4)) # change 4 to any value you want
