@@ -28,7 +28,7 @@ if(empty ($number) ) {
 } elseif ($guess < $number) {
     print ("<h4>もっと高い方が良いかな？</h4><br />");
 } elseif ($guess > $number) {
-    print ("<h4>もっと小さいの方が良いかな？</h4><br />");
+    print ("<h4>もっと小さい方が良いかな？</h4><br />");
 } else {
     print ("<h4>それは違う！</h4><br />");
 }
