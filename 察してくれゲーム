@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 // basic guessing game
-// 簡単な察しゲーム
+// 簡単な察するゲーム
 
 <html>
 <head>
@@ -12,7 +12,7 @@
 <body>
 
 <center>
-  <h1>察しゲーム</h1>
+  <h1>察してくれゲーム</h1>
 
 <?php
 
@@ -26,7 +26,7 @@ if(empty ($number) ) {
 } elseif ($number == $guess) {
     print ("<h4>おめでとうございます！正解です！あなたは $number を察しました！</h4><br />");
 } elseif ($guess < $number) {
-    print ("<h4>もっと高いの方が良いかな？</h4><br />");
+    print ("<h4>もっと高い方が良いかな？</h4><br />");
 } elseif ($guess > $number) {
     print ("<h4>もっと小さいの方が良いかな？</h4><br />");
 } else {
